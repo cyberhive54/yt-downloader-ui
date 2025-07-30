@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Support & Legal - YouTube Video Downloader</title>
+    <meta name="description" id="page-description" content="Get support, report bugs, request features, and read our legal terms for YouTube Video Downloader. Contact us for help with video downloads.">
+    <meta name="keywords" content="youtube downloader support, contact us, bug report, feature request, terms of service, DMCA, disclaimer">
+    <meta name="author" content="YouTube Downloader">
+    <meta property="og:title" id="og-title" content="Support & Legal - YouTube Video Downloader">
+    <meta property="og:description" id="og-description" content="Get support and legal information for YouTube Video Downloader">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://youtubedownloader.com/support-legal">
+    <link rel="canonical" id="canonical-link" href="https://youtubedownloader.com/support-legal">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        /* Text Selection Color */
+        ::selection {
+            background: #ff0000;
+            color: white;
+        }
+
+        ::-moz-selection {
+            background: #ff0000;
+            color: white;
+        }
+
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Inter", sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background: #000000;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .header {
+            background: rgba(10, 10, 10, 0.9);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+        }
+
+        .logo i {
+            margin-right: 0.5rem;
+            font-size: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .nav-link:hover {
+            color: #fdfdfd;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 4rem 0;
+            min-height: calc(100vh - 200px);
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .page-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.7);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Navigation Tabs */
+        .section-nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3rem;
+            background: rgba(20, 20, 20, 1);
+            border-radius: 12px;
+            padding: 8px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 3rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .section-nav-btn {
+            flex: 1;
+            background: none;
+            border: none;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+
+        .section-nav-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .section-nav-btn:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Content Sections */
+        .content-section {
+            display: none;
+            background: rgba(20, 20, 20, 1);
+            border-radius: 20px;
+            padding: 3rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .content-section.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: white;
+            text-align: center;
+        }
+
+        .section-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .section-content h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+            color: #667eea;
+        }
+
+        .section-content h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin: 1.5rem 0 1rem 0;
+            color: white;
+        }
+
+        .section-content p {
+            margin-bottom: 1.5rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+
+        .section-content ul, .section-content ol {
+            margin: 1rem 0 1.5rem 2rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .section-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .section-content strong {
+            color: white;
+            font-weight: 600;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: white;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: rgba(20, 20, 20, 1);
+            color: white;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Info Cards */
+        .info-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid #667eea;
+        }
+
+        .info-card.warning {
+            border-left-color: #f59e0b;
+        }
+
+        .info-card.error {
+            border-left-color: #ef4444;
+        }
+
+        .info-card.success {
+            border-left-color: #10b981;
+        }
+
+        /* Footer */
+        .footer {
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            color: white;
+            padding: 2rem 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            text-align: center;
+        }
+
+        .footer p {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #667eea;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(10, 10, 10, 0.95);
+                backdrop-filter: blur(20px);
+                flex-direction: column;
+                padding: 1rem;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+                border-radius: 0 0 16px 16px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-top: none;
+            }
+
+            .nav.active {
+                display: flex;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .page-title {
+                font-size: 2.2rem;
+            }
+
+            .section-nav {
+                flex-direction: column;
+                gap: 8px;
+                padding: 12px;
+            }
+
+            .section-nav-btn {
+                padding: 10px 16px;
+                font-size: 0.85rem;
+            }
+
+            .content-section {
+                padding: 2rem 1.5rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .main-content {
+                padding: 2rem 0;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-title {
+                font-size: 1.8rem;
+            }
+
+            .section-title {
+                font-size: 1.6rem;
+            }
+
+            .content-section {
+                padding: 1.5rem 1rem;
+            }
+
+            .contact-form {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-play-circle"></i>
+                <span>VideoDownloader</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#how-it-works" class="nav-link">How to Download</a>
+                <a href="index.html#try-other-tools" class="nav-link">More tools</a>
+                <a href="#" class="nav-link">Support & Legal</a>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title" id="dynamic-title">Support & Legal</h1>
+                <p class="page-subtitle" id="dynamic-subtitle">Get help, report issues, request features, and understand our legal terms</p>
+            </div>
+
+            <!-- Section Navigation -->
+            <div class="section-nav">
+                <button class="section-nav-btn active" data-section="contact">Contact Us</button>
+                <button class="section-nav-btn" data-section="bug-report">Report Bug</button>
+                <button class="section-nav-btn" data-section="feature-request">Feature Request</button>
+                <button class="section-nav-btn" data-section="terms">Terms of Service</button>
+                <button class="section-nav-btn" data-section="dmca">DMCA</button>
+                <button class="section-nav-btn" data-section="disclaimer">Disclaimer</button>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div class="content-section active" id="contact">
+                <h1 class="section-title">Contact Us</h1>
+                <div class="section-content">
+                    <p>We're here to help! If you have any questions, concerns, or need assistance with our YouTube Video Downloader, please don't hesitate to reach out to us. Our dedicated support team is committed to providing you with the best possible experience.</p>
+
+                    <h2>Get in Touch</h2>
+                    <p>Whether you're experiencing technical difficulties, have questions about our service, or need guidance on how to use our downloader, we're ready to assist you. We value your feedback and strive to respond to all inquiries promptly.</p>
+
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="contact-name">Full Name *</label>
+                                <input type="text" id="contact-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email Address *</label>
+                                <input type="email" id="contact-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-subject">Subject *</label>
+                                <select id="contact-subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="technical-support">Technical Support</option>
+                                    <option value="general-inquiry">General Inquiry</option>
+                                    <option value="account-issue">Account Issue</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-message">Message *</label>
+                                <textarea id="contact-message" name="message" placeholder="Please describe your issue or question in detail..." required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+
+                    <h2>Response Time</h2>
+                    <p>We aim to respond to all inquiries within 24-48 hours during business days. For urgent technical issues, we prioritize faster response times to ensure minimal disruption to your experience.</p>
+
+                    <div class="info-card">
+                        <h3>Before Contacting Us</h3>
+                        <p>To help us assist you more effectively, please:</p>
+                        <ul>
+                            <li>Check our FAQ section for common questions and solutions</li>
+                            <li>Provide detailed information about your issue, including error messages</li>
+                            <li>Include your browser type and version if experiencing technical difficulties</li>
+                            <li>Mention the specific video URL if the issue is related to a particular download</li>
+                        </ul>
+                    </div>
+
+                    <h2>Alternative Contact Methods</h2>
+                    <p>While our contact form is the preferred method of communication, you can also reach us through:</p>
+                    <ul>
+                        <li><strong>Email:</strong> support@videodownloader.com</li>
+                        <li><strong>Business Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM (EST)</li>
+                        <li><strong>Response Time:</strong> Within 24-48 hours</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bug Report Section -->
+            <div class="content-section" id="bug-report">
+                <h1 class="section-title">Report a Bug</h1>
+                <div class="section-content">
+                    <p>Help us improve our YouTube Video Downloader by reporting any bugs or technical issues you encounter. Your feedback is invaluable in maintaining a high-quality service for all users.</p>
+
+                    <h2>How to Report a Bug</h2>
+                    <p>When reporting a bug, please provide as much detail as possible to help us identify and resolve the issue quickly. The more information you provide, the faster we can fix the problem.</p>
+
+                    <div class="contact-form">
+                        <h3>Bug Report Form</h3>
+                        <form id="bug-report-form">
+                            <div class="form-group">
+                                <label for="bug-name">Your Name *</label>
+                                <input type="text" id="bug-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bug-email">Email Address *</label>
+                                <input type="email" id="bug-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bug-type">Bug Type *</label>
+                                <select id="bug-type" name="bug-type" required>
+                                    <option value="">Select bug type</option>
+                                    <option value="download-failure">Download Failure</option>
+                                    <option value="video-quality">Video Quality Issue</option>
+                                    <option value="audio-issue">Audio Problem</option>
+                                    <option value="interface-bug">Interface Bug</option>
+                                    <option value="performance">Performance Issue</option>
+                                    <option value="compatibility">Browser Compatibility</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="bug-browser">Browser & Version *</label>
+                                <input type="text" id="bug-browser" name="browser" placeholder="e.g., Chrome 120.0.6099.109" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bug-os">Operating System *</label>
+                                <input type="text" id="bug-os" name="os" placeholder="e.g., Windows 11, macOS Sonoma, Ubuntu 22.04" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bug-url">Video URL (if applicable)</label>
+                                <input type="url" id="bug-url" name="video-url" placeholder="https://youtube.com/watch?v=...">
+                            </div>
+                            <div class="form-group">
+                                <label for="bug-description">Bug Description *</label>
+                                <textarea id="bug-description" name="description" placeholder="Please describe the bug in detail, including steps to reproduce it..." required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="bug-expected">Expected Behavior</label>
+                                <textarea id="bug-expected" name="expected" placeholder="What did you expect to happen?"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="bug-actual">Actual Behavior</label>
+                                <textarea id="bug-actual" name="actual" placeholder="What actually happened?"></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Submit Bug Report</button>
+                        </form>
+                    </div>
+
+                    <h2>Bug Report Guidelines</h2>
+                    <div class="info-card">
+                        <h3>To help us resolve your issue quickly, please include:</h3>
+                        <ul>
+                            <li><strong>Detailed Description:</strong> Explain what happened and what you expected to happen</li>
+                            <li><strong>Steps to Reproduce:</strong> List the exact steps that led to the bug</li>
+                            <li><strong>Browser Information:</strong> Include your browser name and version</li>
+                            <li><strong>Operating System:</strong> Specify your OS and version</li>
+                            <li><strong>Error Messages:</strong> Copy any error messages you received</li>
+                            <li><strong>Video URL:</strong> If the issue is with a specific video, include the URL</li>
+                            <li><strong>Screenshots:</strong> If possible, attach screenshots showing the issue</li>
+                        </ul>
+                    </div>
+
+                    <h2>Common Issues and Solutions</h2>
+                    <h3>Download Not Starting</h3>
+                    <ul>
+                        <li>Check if the YouTube URL is valid and accessible</li>
+                        <li>Try refreshing the page and attempting the download again</li>
+                        <li>Disable browser extensions that might interfere with downloads</li>
+                        <li>Clear your browser cache and cookies</li>
+                    </ul>
+
+                    <h3>Poor Video Quality</h3>
+                    <ul>
+                        <li>Ensure the original video supports the quality you're trying to download</li>
+                        <li>Try selecting a different quality option</li>
+                        <li>Check if the video is still available on YouTube</li>
+                    </ul>
+
+                    <h3>Browser Compatibility Issues</h3>
+                    <ul>
+                        <li>Update your browser to the latest version</li>
+                        <li>Try using a different browser (Chrome, Firefox, Safari, Edge)</li>
+                        <li>Disable ad blockers temporarily</li>
+                        <li>Enable JavaScript in your browser settings</li>
+                    </ul>
+
+                    <h2>Bug Status Tracking</h2>
+                    <p>Once you submit a bug report, we'll:</p>
+                    <ol>
+                        <li><strong>Acknowledge:</strong> Send you a confirmation email within 24 hours</li>
+                        <li><strong>Investigate:</strong> Our development team will analyze the issue</li>
+                        <li><strong>Update:</strong> Keep you informed about the progress</li>
+                        <li><strong>Resolve:</strong> Deploy a fix and notify you when it's available</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Feature Request Section -->
+            <div class="content-section" id="feature-request">
+                <h1 class="section-title">Feature Request</h1>
+                <div class="section-content">
+                    <p>We're constantly working to improve our YouTube Video Downloader and add new features that enhance your experience. Your suggestions and feature requests help us prioritize development and create tools that truly meet your needs.</p>
+
+                    <h2>Submit a Feature Request</h2>
+                    <p>Have an idea for a new feature or improvement? We'd love to hear from you! Whether it's a small enhancement or a major new capability, your input helps shape the future of our service.</p>
+
+                    <div class="contact-form">
+                        <h3>Feature Request Form</h3>
+                        <form id="feature-request-form">
+                            <div class="form-group">
+                                <label for="feature-name">Your Name *</label>
+                                <input type="text" id="feature-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="feature-email">Email Address *</label>
+                                <input type="email" id="feature-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="feature-category">Feature Category *</label>
+                                <select id="feature-category" name="category" required>
+                                    <option value="">Select category</option>
+                                    <option value="download-options">Download Options</option>
+                                    <option value="video-quality">Video Quality</option>
+                                    <option value="user-interface">User Interface</option>
+                                    <option value="batch-processing">Batch Processing</option>
+                                    <option value="mobile-support">Mobile Support</option>
+                                    <option value="integration">Third-party Integration</option>
+                                    <option value="performance">Performance</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="feature-priority">Priority Level</label>
+                                <select id="feature-priority" name="priority">
+                                    <option value="low">Low - Nice to have</option>
+                                    <option value="medium" selected>Medium - Would be helpful</option>
+                                    <option value="high">High - Really needed</option>
+                                    <option value="critical">Critical - Essential for workflow</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="feature-title">Feature Title *</label>
+                                <input type="text" id="feature-title" name="title" placeholder="Brief, descriptive title for your feature request" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="feature-description">Detailed Description *</label>
+                                <textarea id="feature-description" name="description" placeholder="Describe the feature in detail. What should it do? How should it work?" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="feature-use-case">Use Case</label>
+                                <textarea id="feature-use-case" name="use-case" placeholder="Explain how this feature would be used and what problem it solves"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="feature-examples">Examples or References</label>
+                                <textarea id="feature-examples" name="examples" placeholder="Any examples from other tools or websites that demonstrate similar functionality?"></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Submit Feature Request</button>
+                        </form>
+                    </div>
+
+                    <h2>Feature Request Guidelines</h2>
+                    <div class="info-card">
+                        <h3>To help us understand and evaluate your request:</h3>
+                        <ul>
+                            <li><strong>Be Specific:</strong> Clearly describe what the feature should do</li>
+                            <li><strong>Explain the Problem:</strong> Tell us what current limitation this would solve</li>
+                            <li><strong>Provide Context:</strong> Explain how you would use this feature</li>
+                            <li><strong>Consider Users:</strong> Think about how other users might benefit</li>
+                            <li><strong>Include Examples:</strong> Reference similar features from other tools if applicable</li>
+                        </ul>
+                    </div>
+
+                    <h2>Popular Feature Requests</h2>
+                    <h3>Currently Under Development</h3>
+                    <ul>
+                        <li><strong>Playlist Organization:</strong> Better sorting and filtering options for playlist downloads</li>
+                        <li><strong>Download History:</strong> Keep track of previously downloaded videos</li>
+                        <li><strong>Custom Quality Presets:</strong> Save preferred quality settings for different use cases</li>
+                        <li><strong>Mobile App:</strong> Native mobile applications for iOS and Android</li>
+                    </ul>
+
+                    <h3>Recently Implemented</h3>
+                    <ul>
+                        <li><strong>Batch Download:</strong> Download multiple videos simultaneously</li>
+                        <li><strong>Playlist Support:</strong> Download entire YouTube playlists</li>
+                        <li><strong>Multiple Formats:</strong> Support for various video and audio formats</li>
+                        <li><strong>Quality Selection:</strong> Choose from available video qualities</li>
+                    </ul>
+
+                    <h2>Feature Evaluation Process</h2>
+                    <p>When we receive a feature request, we evaluate it based on:</p>
+                    <ol>
+                        <li><strong>User Demand:</strong> How many users would benefit from this feature</li>
+                        <li><strong>Technical Feasibility:</strong> Whether it's technically possible to implement</li>
+                        <li><strong>Resource Requirements:</strong> Development time and complexity</li>
+                        <li><strong>Platform Compatibility:</strong> Impact on different browsers and devices</li>
+                        <li><strong>Legal Considerations:</strong> Compliance with terms of service and copyright laws</li>
+                    </ol>
+
+                    <h2>Stay Updated</h2>
+                    <p>We regularly update our service with new features and improvements. To stay informed about new releases:</p>
+                    <ul>
+                        <li>Check our website for announcements</li>
+                        <li>Follow our development blog</li>
+                        <li>Subscribe to our newsletter for feature updates</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Terms of Service Section -->
+            <div class="content-section" id="terms">
+                <h1 class="section-title">Terms of Service</h1>
+                <div class="section-content">
+                    <p><strong>Last Updated:</strong> January 2024</p>
+                    <p>Welcome to VideoDownloader. These Terms of Service ("Terms") govern your use of our website and services. By accessing or using our service, you agree to be bound by these Terms.</p>
+
+                    <h2>1. Acceptance of Terms</h2>
+                    <p>By accessing and using VideoDownloader, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.</p>
+
+                    <h2>2. Description of Service</h2>
+                    <p>VideoDownloader is a web-based service that allows users to download videos from YouTube for personal use. Our service provides various quality options and formats to meet different user needs.</p>
+
+                    <h3>2.1 Service Features</h3>
+                    <ul>
+                        <li>Single video downloads</li>
+                        <li>Playlist downloads</li>
+                        <li>Batch processing capabilities</li>
+                        <li>Multiple quality and format options</li>
+                        <li>Audio extraction services</li>
+                    </ul>
+
+                    <h2>3. User Responsibilities</h2>
+                    <h3>3.1 Lawful Use</h3>
+                    <p>You agree to use our service only for lawful purposes and in accordance with these Terms. You are responsible for ensuring that your use of downloaded content complies with applicable copyright laws and YouTube's Terms of Service.</p>
+
+                    <h3>3.2 Prohibited Uses</h3>
+                    <p>You may not use our service to:</p>
+                    <ul>
+                        <li>Download copyrighted content without proper authorization</li>
+                        <li>Violate any applicable laws or regulations</li>
+                        <li>Infringe upon the rights of others</li>
+                        <li>Distribute downloaded content for commercial purposes without permission</li>
+                        <li>Attempt to reverse engineer or compromise our service</li>
+                        <li>Use automated tools to abuse our service</li>
+                    </ul>
+
+                    <h2>4. Intellectual Property Rights</h2>
+                    <h3>4.1 Our Content</h3>
+                    <p>The service, including its original content, features, and functionality, is owned by VideoDownloader and is protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.</p>
+
+                    <h3>4.2 User Content</h3>
+                    <p>We do not claim ownership of any content you download through our service. However, you are solely responsible for ensuring you have the right to download and use such content.</p>
+
+                    <h2>5. Privacy Policy</h2>
+                    <p>Your privacy is important to us. Our Privacy Policy explains how we collect, use, and protect your information when you use our service. By using our service, you agree to the collection and use of information in accordance with our Privacy Policy.</p>
+
+                    <h2>6. Service Availability</h2>
+                    <h3>6.1 Uptime</h3>
+                    <p>We strive to maintain high service availability but cannot guarantee 100% uptime. Our service may be temporarily unavailable due to maintenance, updates, or technical issues.</p>
+
+                    <h3>6.2 Service Modifications</h3>
+                    <p>We reserve the right to modify, suspend, or discontinue any part of our service at any time without prior notice. We may also impose limits on certain features or restrict access to parts of the service.</p>
+
+                    <h2>7. User Accounts</h2>
+                    <p>Currently, our service does not require user registration. However, if we implement user accounts in the future, additional terms may apply regarding account creation, maintenance, and termination.</p>
+
+                    <h2>8. Limitation of Liability</h2>
+                    <h3>8.1 Disclaimer</h3>
+                    <p>Our service is provided "as is" without any warranties, express or implied. We do not warrant that the service will be uninterrupted, error-free, or completely secure.</p>
+
+                    <h3>8.2 Liability Limits</h3>
+                    <p>To the maximum extent permitted by law, VideoDownloader shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or other intangible losses.</p>
+
+                    <h2>9. Indemnification</h2>
+                    <p>You agree to defend, indemnify, and hold harmless VideoDownloader and its affiliates from and against any claims, damages, obligations, losses, liabilities, costs, or debt arising from your use of the service or violation of these Terms.</p>
+
+                    <h2>10. Termination</h2>
+                    <p>We may terminate or suspend your access to our service immediately, without prior notice, for any reason, including breach of these Terms. Upon termination, your right to use the service will cease immediately.</p>
+
+                    <h2>11. Governing Law</h2>
+                    <p>These Terms shall be governed by and construed in accordance with the laws of [Jurisdiction], without regard to its conflict of law provisions. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts in [Jurisdiction].</p>
+
+                    <h2>12. Changes to Terms</h2>
+                    <p>We reserve the right to modify these Terms at any time. We will notify users of any material changes by posting the new Terms on this page. Your continued use of the service after such modifications constitutes acceptance of the updated Terms.</p>
+
+                    <h2>13. Contact Information</h2>
+                    <p>If you have any questions about these Terms of Service, please contact us at:</p>
+                    <ul>
+                        <li>Email: legal@videodownloader.com</li>
+                        <li>Address: [Company Address]</li>
+                    </ul>
+
+                    <div class="info-card">
+                        <h3>Important Notice</h3>
+                        <p>These Terms of Service are legally binding. Please read them carefully and ensure you understand your rights and obligations before using our service. If you do not agree with any part of these terms, you should not use our service.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DMCA Section -->
+            <div class="content-section" id="dmca">
+                <h1 class="section-title">DMCA Policy</h1>
+                <div class="section-content">
+                    <p><strong>Last Updated:</strong> January 2024</p>
+                    <p>VideoDownloader respects the intellectual property rights of others and expects our users to do the same. In accordance with the Digital Millennium Copyright Act (DMCA), we have adopted the following policy regarding copyright infringement.</p>
+
+                    <h2>1. DMCA Compliance</h2>
+                    <p>We comply with the provisions of the Digital Millennium Copyright Act applicable to Internet service providers (17 U.S.C. §512, as amended). If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement through our service, please provide our designated agent with the following information:</p>
+
+                    <h2>2. Filing a DMCA Notice</h2>
+                    <h3>2.1 Required Information</h3>
+                    <p>To file a DMCA takedown notice, you must provide:</p>
+                    <ul>
+                        <li><strong>Identification of the copyrighted work:</strong> A description of the copyrighted work that you claim has been infringed</li>
+                        <li><strong>Identification of the infringing material:</strong> A description of where the material that you claim is infringing is located on our service</li>
+                        <li><strong>Contact information:</strong> Your address, telephone number, and email address</li>
+                        <li><strong>Good faith statement:</strong> A statement that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law</li>
+                        <li><strong>Accuracy statement:</strong> A statement that the information in the notification is accurate and, under penalty of perjury, that you are authorized to act on behalf of the copyright owner</li>
+                        <li><strong>Physical or electronic signature:</strong> Your physical or electronic signature</li>
+                    </ul>
+
+                    <h3>2.2 DMCA Notice Template</h3>
+                    <div class="info-card">
+                        <p><strong>DMCA Takedown Notice Template:</strong></p>
+                        <p>To: DMCA Agent, VideoDownloader<br>
+                        Email: dmca@videodownloader.com</p>
+                        
+                        <p>I am writing to notify you of intellectual property infringement on your service.</p>
+                        
+                        <p><strong>1. Identification of copyrighted work:</strong><br>
+                        [Describe the copyrighted work that has been infringed]</p>
+                        
+                        <p><strong>2. Identification of infringing material:</strong><br>
+                        [Provide specific URLs or descriptions of where the infringing material appears]</p>
+                        
+                        <p><strong>3. Contact Information:</strong><br>
+                        Name: [Your full name]<br>
+                        Address: [Your address]<br>
+                        Phone: [Your phone number]<br>
+                        Email: [Your email address]</p>
+                        
+                        <p><strong>4. Good Faith Statement:</strong><br>
+                        I have a good faith belief that use of the copyrighted materials described above is not authorized by the copyright owner, its agent, or the law.</p>
+                        
+                        <p><strong>5. Accuracy Statement:</strong><br>
+                        I swear, under penalty of perjury, that the information in this notification is accurate and that I am the copyright owner or am authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</p>
+                        
+                        <p><strong>Signature:</strong> [Your signature]<br>
+                        <strong>Date:</strong> [Date]</p>
+                    </div>
+
+                    <h2>3. Designated DMCA Agent</h2>
+                    <p>Our designated agent for receiving DMCA notices is:</p>
+                    <div class="info-card">
+                        <p><strong>DMCA Agent</strong><br>
+                        VideoDownloader<br>
+                        Email: dmca@videodownloader.com<br>
+                        Address: [Company Address]<br>
+                        Phone: [Phone Number]</p>
+                    </div>
+
+                    <h2>4. Response to DMCA Notices</h2>
+                    <h3>4.1 Processing Timeline</h3>
+                    <p>Upon receiving a valid DMCA notice, we will:</p>
+                    <ol>
+                        <li><strong>Acknowledge receipt</strong> within 24-48 hours</li>
+                        <li><strong>Review the notice</strong> for completeness and validity</li>
+                        <li><strong>Take appropriate action</strong> if the notice is valid</li>
+                        <li><strong>Notify the user</strong> if content or access is removed</li>
+                    </ol>
+
+                    <h3>4.2 Actions We May Take</h3>
+                    <p>If we determine that a DMCA notice is valid, we may:</p>
+                    <ul>
+                        <li>Remove or disable access to the allegedly infringing material</li>
+                        <li>Notify the user who posted the material</li>
+                        <li>Terminate repeat infringers' access to our service</li>
+                        <li>Preserve records as required by law</li>
+                    </ul>
+
+                    <h2>5. Counter-Notification Process</h2>
+                    <h3>5.1 Filing a Counter-Notice</h3>
+                    <p>If you believe that material you posted was removed or disabled by mistake or misidentification, you may file a counter-notification with our DMCA agent. Your counter-notification must include:</p>
+                    <ul>
+                        <li>Your physical or electronic signature</li>
+                        <li>Identification of the material that was removed and its location before removal</li>
+                        <li>A statement under penalty of perjury that you have a good faith belief that the material was removed by mistake or misidentification</li>
+                        <li>Your name, address, and telephone number</li>
+                        <li>A statement that you consent to the jurisdiction of the federal district court for your address</li>
+                    </ul>
+
+                    <h3>5.2 Counter-Notice Processing</h3>
+                    <p>Upon receiving a valid counter-notice, we will:</p>
+                    <ol>
+                        <li>Forward the counter-notice to the original complainant</li>
+                        <li>Inform the complainant that we will restore the material in 10-14 business days</li>
+                        <li>Restore the material unless the complainant files a court action</li>
+                    </ol>
+
+                    <h2>6. Repeat Infringer Policy</h2>
+                    <p>We have adopted a policy of terminating, in appropriate circumstances, users who are deemed to be repeat infringers. We may also limit access to our service and/or terminate accounts of users who infringe any intellectual property rights of others, whether or not there is any repeat infringement.</p>
+
+                    <h2>7. False Claims</h2>
+                    <p>Please note that under Section 512(f) of the DMCA, any person who knowingly materially misrepresents that material is infringing may be subject to liability for damages. Don't make false claims!</p>
+
+                    <h2>8. Limitations</h2>
+                    <h3>8.1 Service Limitations</h3>
+                    <p>Please understand that:</p>
+                    <ul>
+                        <li>We are a download service, not a hosting platform</li>
+                        <li>We do not store or host copyrighted content</li>
+                        <li>We provide tools for users to download content from third-party platforms</li>
+                        <li>Users are responsible for ensuring they have rights to download content</li>
+                    </ul>
+
+                    <h3>8.2 Educational Use</h3>
+                    <p>We encourage users to:</p>
+                    <ul>
+                        <li>Only download content they have permission to use</li>
+                        <li>Respect copyright holders' rights</li>
+                        <li>Use downloaded content for personal, educational, or fair use purposes</li>
+                        <li>Understand the difference between downloading and redistribution</li>
+                    </ul>
+
+                    <div class="info-card warning">
+                        <h3>Important Legal Notice</h3>
+                        <p>This DMCA policy is provided for informational purposes and does not constitute legal advice. Copyright law is complex, and we recommend consulting with a qualified attorney for specific legal questions. We reserve the right to modify this policy at any time.</p>
+                    </div>
+
+                    <h2>9. Contact Information</h2>
+                    <p>For all DMCA-related inquiries, please contact our designated agent:</p>
+                    <ul>
+                        <li><strong>Email:</strong> dmca@videodownloader.com</li>
+                        <li><strong>Subject Line:</strong> DMCA Notice or DMCA Counter-Notice</li>
+                        <li><strong>Response Time:</strong> 24-48 hours for acknowledgment</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Disclaimer Section -->
+            <div class="content-section" id="disclaimer">
+                <h1 class="section-title">Disclaimer</h1>
+                <div class="section-content">
+                    <p><strong>Last Updated:</strong> January 2024</p>
+                    <p>This disclaimer governs your use of VideoDownloader. By using our service, you accept this disclaimer in full. If you disagree with any part of this disclaimer, do not use our service.</p>
+
+                    <h2>1. General Disclaimer</h2>
+                    <p>The information and services provided by VideoDownloader are for general informational and educational purposes only. We make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the service or the information contained therein.</p>
+
+                    <h2>2. Service Limitations</h2>
+                    <h3>2.1 No Warranty</h3>
+                    <p>Our service is provided "as is" and "as available" without any warranties of any kind, either express or implied, including but not limited to:</p>
+                    <ul>
+                        <li>Warranties of merchantability</li>
+                        <li>Fitness for a particular purpose</li>
+                        <li>Non-infringement</li>
+                        <li>Accuracy or completeness</li>
+                        <li>Uninterrupted or error-free operation</li>
+                    </ul>
+
+                    <h3>2.2 Technical Limitations</h3>
+                    <p>We cannot guarantee that:</p>
+                    <ul>
+                        <li>Our service will be available at all times</li>
+                        <li>Downloads will always be successful</li>
+                        <li>All video qualities will be available for every video</li>
+                        <li>The service will work with all browsers or devices</li>
+                        <li>Downloaded files will be free from defects or corruption</li>
+                    </ul>
+
+                    <h2>3. User Responsibility</h2>
+                    <h3>3.1 Legal Compliance</h3>
+                    <p>Users are solely responsible for:</p>
+                    <ul>
+                        <li>Ensuring they have the legal right to download content</li>
+                        <li>Complying with applicable copyright laws</li>
+                        <li>Respecting the terms of service of third-party platforms</li>
+                        <li>Using downloaded content in accordance with applicable laws</li>
+                        <li>Understanding fair use and copyright limitations</li>
+                    </ul>
+
+                    <h3>3.2 Content Responsibility</h3>
+                    <p>We do not:</p>
+                    <ul>
+                        <li>Own or control the content available for download</li>
+                        <li>Verify the copyright status of content</li>
+                        <li>Grant permission to download copyrighted material</li>
+                        <li>Assume responsibility for user's use of downloaded content</li>
+                    </ul>
+
+                    <h2>4. Copyright and Intellectual Property</h2>
+                    <h3>4.1 Copyright Notice</h3>
+                    <p>VideoDownloader respects intellectual property rights and expects users to do the same. Downloading copyrighted content without permission may violate copyright laws and the terms of service of content platforms.</p>
+
+                    <h3>4.2 Fair Use</h3>
+                    <p>While some uses of copyrighted material may be considered fair use, this is a complex legal doctrine that depends on various factors. Users should:</p>
+                    <ul>
+                        <li>Understand fair use limitations in their jurisdiction</li>
+                        <li>Consider the purpose and character of use</li>
+                        <li>Evaluate the nature of the copyrighted work</li>
+                        <li>Assess the amount and substantiality of the portion used</li>
+                        <li>Consider the effect on the market for the original work</li>
+                    </ul>
+
+                    <h2>5. Third-Party Content and Services</h2>
+                    <h3>5.1 External Platforms</h3>
+                    <p>Our service interacts with third-party platforms (such as YouTube). We are not responsible for:</p>
+                    <ul>
+                        <li>Changes to third-party platforms that affect our service</li>
+                        <li>The availability or quality of content on external platforms</li>
+                        <li>Third-party terms of service or privacy policies</li>
+                        <li>Actions taken by third-party platforms against users</li>
+                    </ul>
+
+                    <h3>5.2 External Links</h3>
+                    <p>Our website may contain links to external websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
+
+                    <h2>6. Limitation of Liability</h2>
+                    <h3>6.1 Damages Limitation</h3>
+                    <p>To the maximum extent permitted by applicable law, VideoDownloader shall not be liable for any:</p>
+                    <ul>
+                        <li>Direct, indirect, incidental, or consequential damages</li>
+                        <li>Loss of profits, data, or business opportunities</li>
+                        <li>Damages resulting from use or inability to use our service</li>
+                        <li>Damages from unauthorized access to or alteration of transmissions</li>
+                        <li>Damages from statements or conduct of third parties</li>
+                    </ul>
+
+                    <h3>6.2 Maximum Liability</h3>
+                    <p>In no event shall our total liability to you for all damages exceed the amount paid by you, if any, for accessing our service during the twelve (12) months preceding the event giving rise to liability.</p>
+
+                    <h2>7. Indemnification</h2>
+                    <p>You agree to indemnify, defend, and hold harmless VideoDownloader, its officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, and expenses arising out of or in any way connected with:</p>
+                    <ul>
+                        <li>Your use of our service</li>
+                        <li>Your violation of these terms or any applicable law</li>
+                        <li>Your infringement of any third-party rights</li>
+                        <li>Any content you download or distribute using our service</li>
+                    </ul>
+
+                    <h2>8. Educational Purpose</h2>
+                    <h3>8.1 Intended Use</h3>
+                    <p>Our service is intended for:</p>
+                    <ul>
+                        <li>Educational and research purposes</li>
+                        <li>Personal use and entertainment</li>
+                        <li>Backup of content you own or have permission to use</li>
+                        <li>Fair use applications as permitted by law</li>
+                    </ul>
+
+                    <h3>8.2 Prohibited Uses</h3>
+                    <p>Our service should not be used for:</p>
+                    <ul>
+                        <li>Commercial redistribution of copyrighted content</li>
+                        <li>Circumventing content creators' monetization</li>
+                        <li>Mass downloading for commercial purposes</li>
+                        <li>Any illegal or unauthorized activities</li>
+                    </ul>
+
+                    <h2>9. Changes and Updates</h2>
+                    <p>We reserve the right to modify this disclaimer at any time without prior notice. Changes will be effective immediately upon posting on our website. Your continued use of our service after any changes constitutes acceptance of the new disclaimer.</p>
+
+                    <h2>10. Governing Law</h2>
+                    <p>This disclaimer is governed by and construed in accordance with the laws of [Jurisdiction]. Any disputes arising from this disclaimer shall be subject to the exclusive jurisdiction of the courts in [Jurisdiction].</p>
+
+                    <div class="info-card error">
+                        <h3>Important Legal Warning</h3>
+                        <p><strong>Copyright Infringement Notice:</strong> Downloading copyrighted content without permission is illegal in many jurisdictions and may result in legal action. Users are solely responsible for ensuring they have the right to download and use any content. We strongly advise users to:</p>
+                        <ul>
+                            <li>Only download content they own or have explicit permission to use</li>
+                            <li>Respect copyright holders' rights and intellectual property</li>
+                            <li>Understand the legal implications of downloading copyrighted material</li>
+                            <li>Consult with legal counsel if unsure about their rights</li>
+                        </ul>
+                    </div>
+
+                    <h2>11. Contact Information</h2>
+                    <p>If you have questions about this disclaimer or need clarification on any points, please contact us:</p>
+                    <ul>
+                        <li><strong>Email:</strong> legal@videodownloader.com</li>
+                        <li><strong>Subject:</strong> Disclaimer Inquiry</li>
+                        <li><strong>Response Time:</strong> 3-5 business days</li>
+                    </ul>
+
+                    <p><strong>Effective Date:</strong> This disclaimer is effective as of the date last updated and will remain in effect until modified or replaced.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 VideoDownloader. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="#contact" onclick="showSection('contact')">Contact</a>
+                    <a href="#terms" onclick="showSection('terms')">Terms</a>
+                    <a href="#disclaimer" onclick="showSection('disclaimer')">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Get URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Show specific section
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Remove active class from all nav buttons
+            const navButtons = document.querySelectorAll('.section-nav-btn');
+            navButtons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected section
+            const targetSection = document.getElementById(sectionId);
+            if (targetSection) {
+                targetSection.classList.add('active');
+            }
+
+            // Activate corresponding nav button
+            const targetButton = document.querySelector(`[data-section="${sectionId}"]`);
+            if (targetButton) {
+                targetButton.classList.add('active');
+            }
+
+            // Update page metadata
+            updatePageMetadata(sectionId);
+
+            // Update URL without page reload
+            const newUrl = `${window.location.pathname}?section=${sectionId}`;
+            window.history.pushState({section: sectionId}, '', newUrl);
+        }
+
+        // Update page metadata based on section
+        function updatePageMetadata(sectionId) {
+            const metadata = {
+                'contact': {
+                    title: 'Contact Us - YouTube Video Downloader Support',
+                    description: 'Get in touch with our support team. Contact us for help with YouTube video downloads, technical issues, or general inquiries.',
+                    subtitle: 'Get help and support for all your video downloading needs'
+                },
+                'bug-report': {
+                    title: 'Report a Bug - YouTube Video Downloader',
+                    description: 'Report bugs and technical issues with our YouTube video downloader. Help us improve our service by reporting problems.',
+                    subtitle: 'Help us improve by reporting bugs and technical issues'
+                },
+                'feature-request': {
+                    title: 'Feature Request - YouTube Video Downloader',
+                    description: 'Request new features for our YouTube video downloader. Share your ideas to help us build better tools.',
+                    subtitle: 'Share your ideas to help us build better tools'
+                },
+                'terms': {
+                    title: 'Terms of Service - YouTube Video Downloader',
+                    description: 'Read our terms of service for YouTube Video Downloader. Understand your rights and responsibilities when using our service.',
+                    subtitle: 'Terms and conditions governing the use of our service'
+                },
+                'dmca': {
+                    title: 'DMCA Policy - YouTube Video Downloader',
+                    description: 'Our DMCA policy and copyright compliance procedures. Learn how to file DMCA notices and counter-notices.',
+                    subtitle: 'Copyright compliance and DMCA procedures'
+                },
+                'disclaimer': {
+                    title: 'Disclaimer - YouTube Video Downloader',
+                    description: 'Important disclaimers and legal information for YouTube Video Downloader users. Understand limitations and responsibilities.',
+                    subtitle: 'Important legal disclaimers and user responsibilities'
+                }
+            };
+
+            const data = metadata[sectionId] || metadata['contact'];
+            
+            // Update title and meta tags
+            document.getElementById('page-title').textContent = data.title;
+            document.getElementById('page-description').setAttribute('content', data.description);
+            document.getElementById('og-title').setAttribute('content', data.title);
+            document.getElementById('og-description').setAttribute('content', data.description);
+            document.getElementById('canonical-link').setAttribute('href', `https://youtubedownloader.com/support-legal?section=${sectionId}`);
+            
+            // Update page header
+            document.getElementById('dynamic-title').textContent = data.title.split(' - ')[0];
+            document.getElementById('dynamic-subtitle').textContent = data.subtitle;
+        }
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get section from URL parameter
+            const section = getUrlParameter('section') || 'contact';
+            showSection(section);
+
+            // Add event listeners to navigation buttons
+            const navButtons = document.querySelectorAll('.section-nav-btn');
+            navButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const sectionId = this.getAttribute('data-section');
+                    showSection(sectionId);
+                });
+            });
+
+            // Handle browser back/forward buttons
+            window.addEventListener('popstate', function(event) {
+                if (event.state && event.state.section) {
+                    showSection(event.state.section);
+                } else {
+                    const section = getUrlParameter('section') || 'contact';
+                    showSection(section);
+                }
+            });
+
+            // Mobile menu functionality
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const nav = document.querySelector('.nav');
+
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    nav.classList.toggle('active');
+                });
+            }
+
+            // Form submissions
+            setupFormHandlers();
+        });
+
+        // Setup form handlers
+        function setupFormHandlers() {
+            // Contact form
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    handleFormSubmission('contact', this);
+                });
+            }
+
+            // Bug report form
+            const bugForm = document.getElementById('bug-report-form');
+            if (bugForm) {
+                bugForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    handleFormSubmission('bug-report', this);
+                });
+            }
+
+            // Feature request form
+            const featureForm = document.getElementById('feature-request-form');
+            if (featureForm) {
+                featureForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    handleFormSubmission('feature-request', this);
+                });
+            }
+        }
+
+        // Handle form submissions
+        function handleFormSubmission(formType, form) {
+            const formData = new FormData(form);
+            const data = {};
+            
+            // Convert FormData to object
+            for (let [key, value] of formData.entries()) {
+                data[key] = value;
+            }
+
+            // Show loading state
+            const submitBtn = form.querySelector('.submit-btn');
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
+
+            // Simulate form submission (replace with actual API call)
+            setTimeout(() => {
+                // Reset button
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+
+                // Show success message
+                showNotification(`Your ${formType.replace('-', ' ')} has been submitted successfully! We'll get back to you soon.`, 'success');
+
+                // Reset form
+                form.reset();
+            }, 2000);
+        }
+
+        // Show notification
+        function showNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.className = `notification ${type}`;
+            notification.innerHTML = `
+                <i class="fas fa-${type === 'success' ? 'check-circle' : type === 'error' ? 'exclamation-circle' : 'info-circle'}"></i>
+                <span>${message}</span>
+            `;
+
+            // Add notification styles
+            notification.style.cssText = `
+                position: fixed;
+                top: 100px;
+                right: 20px;
+                background: ${type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#6366f1'};
+                color: white;
+                padding: 1rem 1.5rem;
+                border-radius: 12px;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+                z-index: 3000;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                animation: slideInRight 0.3s ease;
+                max-width: 300px;
+                font-weight: 500;
+            `;
+
+            document.body.appendChild(notification);
+
+            setTimeout(() => {
+                notification.style.animation = 'slideOutRight 0.3s ease';
+                setTimeout(() => {
+                    if (document.body.contains(notification)) {
+                        document.body.removeChild(notification);
+                    }
+                }, 300);
+            }, 5000);
+        }
+
+        // Add notification animations
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideInRight {
+                from {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes slideOutRight {
+                from {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                to {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
